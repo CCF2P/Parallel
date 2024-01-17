@@ -137,7 +137,7 @@ double average_cpp_mtx(const uint32_t* v, size_t N)
     return res / N;
 }
 
-double average_cpp_align(const double* v, size_t N)
+double average_cpp_align(const uint32_t* v, size_t N)
 {
     unsigned T = std::thread::hardware_concurrency();
     std::vector<std::thread> workers;
@@ -358,6 +358,9 @@ void FirstLab(size_t N)
     randomize_vector(buf, 20020922);
 
     std::vector<measure_func> functions_for_measure{
+        measure_func("average_omp_with_struct", average_omp_with_struct),
+        measure_func("average_cpp_mtx", average_cpp_mtx),
+        measure_func("average_cpp_align", average_cpp_align),
         measure_func("average_reduce", average_reduce),
         measure_func("average_cpp_mtx_align_local_cach", average_cpp_mtx_align_local_cach),
         measure_func("average_cpp_partial_sums_align_local_cach_reduce", average_cpp_partial_sums_align_local_cach_reduce)

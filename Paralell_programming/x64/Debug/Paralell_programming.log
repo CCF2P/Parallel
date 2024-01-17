@@ -1,9 +1,9 @@
 ﻿  Main.cpp
-C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(430,96): warning C4244: '=': conversion from '_Rep' to 'double', possible loss of data
-C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(430,96): warning C4244:         with
-C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(430,96): warning C4244:         [
-C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(430,96): warning C4244:             _Rep=__int64
-C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(430,96): warning C4244:         ]
+C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(426,96): warning C4244: '=': conversion from '_Rep' to 'double', possible loss of data
+C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(426,96): warning C4244:         with
+C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(426,96): warning C4244:         [
+C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(426,96): warning C4244:             _Rep=__int64
+C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(426,96): warning C4244:         ]
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1741,67): warning C4244: 'argument': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
   (compiling source file 'Main.cpp')
   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1741,67):
