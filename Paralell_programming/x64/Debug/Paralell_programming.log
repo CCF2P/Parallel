@@ -1,0 +1,36 @@
+﻿  Main.cpp
+C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(430,96): warning C4244: '=': conversion from '_Rep' to 'double', possible loss of data
+C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(430,96): warning C4244:         with
+C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(430,96): warning C4244:         [
+C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(430,96): warning C4244:             _Rep=__int64
+C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(430,96): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1741,67): warning C4244: 'argument': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+  (compiling source file 'Main.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1741,67):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\zhora\source\repos\Paralell_programming\Paralell_programming\Main.cpp(211,33):
+  	see reference to function template instantiation 'std::thread::thread<average_cpp_partial_sums_align_local_cach_reduce::<lambda_1>&,size_t,0>(_Fn,size_t &&)' being compiled
+          with
+          [
+              _Fn=average_cpp_partial_sums_align_local_cach_reduce::<lambda_1> &
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\thread(93,9):
+  	see reference to function template instantiation 'void std::thread::_Start<average_cpp_partial_sums_align_local_cach_reduce::<lambda_1>&,_Ty>(_Fn,_Ty &&)' being compiled
+          with
+          [
+              _Ty=size_t,
+              _Fn=average_cpp_partial_sums_align_local_cach_reduce::<lambda_1> &
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\thread(76,40):
+  	see reference to function template instantiation 'unsigned int (__cdecl *std::thread::_Get_invoke<_Tuple,0,1>(std::integer_sequence<size_t,0,1>) noexcept)(void *) noexcept' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\thread(67,17):
+  	see reference to function template instantiation 'unsigned int std::thread::_Invoke<_Tuple,0,1>(void *) noexcept' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\thread(60,14):
+  	see reference to function template instantiation 'void std::invoke<average_cpp_partial_sums_align_local_cach_reduce::<lambda_1>,unsigned __int64,>(_Callable &&,_Ty1 &&) noexcept(false)' being compiled
+          with
+          [
+              _Callable=average_cpp_partial_sums_align_local_cach_reduce::<lambda_1>,
+              _Ty1=unsigned __int64
+          ]
+  
+  Paralell_programming.vcxproj -> C:\Users\zhora\source\repos\Paralell_programming\x64\Debug\Paralell_programming.exe
