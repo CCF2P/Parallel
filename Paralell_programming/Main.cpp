@@ -358,14 +358,7 @@ void FirstLab(size_t N)
     randomize_vector(buf, 20020922);
 
     std::vector<measure_func> functions_for_measure{
-        //measure_func("average", average),
         measure_func("average_reduce", average_reduce),
-        //measure_func("average_rr", average_rr),
-        //measure_func("average_omp", average_omp),
-        //measure_func("average_omp_with_struct", average_omp_with_struct),
-        //measure_func("average_cpp_aligned", average_cpp_aligned),
-        //measure_func("average_omp_mtx", average_omp_mtx),
-        //measure_func("average_cpp_mtx", average_cpp_mtx),
         measure_func("average_cpp_mtx_align_local_cach", average_cpp_mtx_align_local_cach),
         measure_func("average_cpp_partial_sums_align_local_cach_reduce", average_cpp_partial_sums_align_local_cach_reduce)
     };
